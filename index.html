@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="/images/burger4.png" alt=""></div>
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Special Offers</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+
+            </ul>
+        </div>
+     
+
+    </header>
+    <div class="main-section">
+        
+        <div class="text">
+            <h2>Delicious Burger</h2>
+            <div class="para">At Delicious Food, our burgers are crafted to perfection, combining juicy, seasoned
+                patties with the freshest toppings and soft, toasted buns. Each bite is a burst of flavor, whether you
+                choose our classic cheeseburger or a gourmet specialty. Made with love and care, our burgers promise to
+                satisfy every craving. Come taste the deliciousness that keeps everyone coming back for more!</div>
+        </div>
+
+        <div class="img"><img src="/images/burger9.jpg" alt=""></div>
+    </div>
+    <div class="main-section">
+      
+        
+        <div id="img2" class="img"><img src="/images/newpizza1.png" alt=""></div>
+       <div class="text">
+        <h2>Delicious Pizzas</h2>
+        <div class="para">At Delicious Food, our pizzas are a masterpiece of taste and quality. With hand-tossed crusts,
+            rich, flavorful sauces, and premium toppings, every slice is a delight. Whether you love classic Margherita
+            or bold, loaded options, we’ve got the perfect pizza for you. Freshly baked to golden perfection, our pizzas
+            are made to satisfy every craving. Indulge in a slice of happiness today!</div>
+       </div>
+    </div>
+
+
+    </div>
+    </div>
+
+    <div class="deals">
+        <h1>Our Special Offers</h1>
+        <div class="deals-items">
+            <div class="deal1">
+                <h3>Offer 1</h3>
+                <div class="detail">
+                    Our Special Beef Burger is a delight for burger lovers! Made with a perfectly grilled, juicy beef patty, fresh lettuce, tomatoes, and our signature sauce, it’s packed with bold flavors. Served on a soft, toasted bun, it’s a hearty and satisfying meal. Taste the perfection in every bite!
+                </div>
+                <div class="rs">Rs 300 PKR</div>
+                <div class="pic"><img src="/images/burgerdeal2.avif" alt=""></div>
+                <button>Order Now</button>
+            </div>
+<!-- 
+            second card start now -->
+            <div class="deal1">
+                <h3>Offer 2</h3>
+                <div class="detail">
+                    Our Chicken Crunch Burger is perfect for crispy chicken lovers! Made with a golden-fried chicken fillet, topped with fresh lettuce, creamy mayo, and a hint of spice, it’s packed with flavor. Served with crispy chips, it’s a satisfying and delicious meal. Treat yourself to the ultimate crunch!
+                </div>
+                <div class="rs">Rs 1500 PKR</div>
+                <div class="pic"><img src="/images/burgerdeal3.png" alt=""></div>
+                <button>Order Now</button>
+            </div>
+            <!-- 
+            third card start now
+            -->
+            <div class="deal1">
+                <h3>Offer 3</h3>
+                <div class="detail">
+                    Our Triple Burger Combo is a feast for burger lovers! Enjoy three juicy burgers, each loaded with fresh lettuce, tomatoes, and signature sauce, paired with crispy, golden chips. To complete your meal, sip on an ice-cold drink of your choice. It’s the ultimate combo for a hearty, satisfying treat!
+                </div>
+                <div class="rs">Rs 1000PKR</div>
+                <div class="pic"><img src="/images/burgerdeal2.webp" alt=""></div>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <h2>About Us</h2>
+        <div class="about">
+            <h3>Delicious Food</h3>
+            <div class="about-text">Declicious Food is a fast-food franchise that specializes in satisfying cravings with its mouthwatering pizzas and juicy burgers. Our menu is crafted to deliver the perfect blend of flavors, offering a variety of toppings and fillings to cater to every taste bud. Whether you're in the mood for a cheesy, crispy pizza or a succulent, savory burger, Declicious Food has something to delight everyone. Our commitment to quality ingredients and quick service ensures every bite is a memorable experience. Visit us to enjoy fast food that’s not just fast but truly delicious!</div>
+            
+        </div>
+    </div>
+
+
+    <div class="about-us">
+        <h2>Contact Us</h2>
+        <div class="about">
+            <h3>Delicious Food</h3>
+            <div id="contact" class="about-text">You can Contact us OR Order us on</div>
+            <div id="social-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fas fa-phone"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script>
+    gsap.from(".logo, .menu, .menu li", {
+        y: -200,
+        duration: 0.6,
+        delay: 0.1,
+        stagger: 0.2
+    });
+    gsap.from(".text", {
+        x: -1000,
+        duration: 1.3,
+        delay: 0.6
+    })
+    gsap.from(".img", {
+        x: 1000,
+        duration: 1.4,
+        delay: 0.7
+    })
+
+</script>
+
+</html>
